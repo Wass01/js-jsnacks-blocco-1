@@ -6,7 +6,7 @@ var n = [];
 
 
 if(numero <= 999 || numero >= 10000){
-  console.log("Numero non è da 4 cifre");
+  console.log("Il numero non è da 4 cifre");
 } else {
   n.push(numero);
   var somma = n[0] + n[1] + n[2] + n[3];
