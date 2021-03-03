@@ -3,8 +3,7 @@
 
 var n = parseInt(prompt("Inserisci un numero:"));
 
-for (var i = 0; i <= n + 1; i++) {
-  n = --n;
-  var risultato = n * n * n;
+for (var i = 0; i <= n ; i++) {
+  var risultato = Math.pow(i, 3);
   console.log(risultato);
 }
